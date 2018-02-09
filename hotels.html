@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sedona hotels</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+  <header class="hotels-header hotels-container ">
+	<nav class="main-navigation clearfix">
+			<ul class="main-menu">
+				<li><a href="index.html">Информация</a></li>
+				<li><a href="#">Фото и видео</a></li>
+				<li><a href="#"><img src="img/sedona_logo.png" alt="Sedona logo" width="140" height="70"></a></li>
+				<li><a href="index.html#map">Карта штата</a></li>
+				<li><a href="#">Гостиницы</a></li>
+			</ul>
+		</nav>
+		<div class="filter ">
+		<form  action="" class="hotels-form " method="post">
+			<div class="filter-list">
+			<div class="filter-title">Инфраструктура:</div>
+			<input type="checkbox" id="ch1"><label for="ch1"> Бассейн</label>
+			<input type="checkbox" id="ch2"><label for="ch2"> Парковка</label>
+			<input type="checkbox" id="ch3"><label for="ch3">Wi-Fi</label>
+			</div>
+			<div class="filter-list">
+			<div class="filter-title">Тип жилья:</div>
+			<input type="checkbox" id="ch4"><label for="ch4"> Гостиница</label>
+			<input type="checkbox" id="ch5"><label for="ch5"> Мотель</label>
+			<input type="checkbox" id="ch6"><label for="ch6"> Аппартаменты</label>
+			</div>
+			<div class="price">
+				<div class="filter-title">Стоимость в сутки:</div>
+				<div class="input-price">
+			<input type="text" placeholder="От 0" name="min-price">
+			<input type="text" placeholder="До 3000" name="max-price">
+			</div>
+			<div class="mark-block">
+				<div class="mark-bar"></div>
+					<div class="mark-bar-active"></div>
+					<div class="mark mark-min"></div>
+					<div class="mark mark-max"></div>
+				
+			</div>
+			<button type="submit" class="form-btn">Показать</button>
+			</div>
+		</form>
+		</div>
+	</header>
+	
+<main class="hotels-container clearfix">
+	<div class="sort clearfix">
+		<div class="sort-title">Найдено 3:</div>
+		
+		<ul class="sort-list ">
+			<li class="sort-item"><a>Сортировка:</a></li>
+			<li class="sort-item"><a href="#">По цене</a></li>
+			<li class="sort-item"><a href="#">По типу</a></li>
+			<li class="sort-item"><a href="#">По рейтингу</a></li>
+			<li class="sort-item"><a href="#">Вверх</a></li>
+			<li class="sort-item"><a href="#">Вниз</a></li>
+		</ul>
+	</div>
+	<div class="hotels-list">
+		<div class="hotel-item clearfix">
+			<div class="hotel-item-right">
+			<div class="hotel-img"><img src="img/amara.png" alt="amara resort" width="136" height="90"></div>
+			<div class="hotel-discr"><h2>Amara resort &amp; spa</h2>
+			<span class="hotel-item-type">Гостиница</span>
+			<span class="hotel-item-price">от 4000 Р</span>
+			<a href="" class="btn">Подробней</a><a href="" class="btn add-btn">забронировать</a>
+			</div>
+			</div>
+			<div class="rait-left">
+				<div class="star 4-star"></div>
+				<div class="raiting">Рейтинг: 8.5</div>
+			</div>
+		</div>
+		<div class="hotel-item clearfix">
+			<div class="hotel-item-right">
+				<div class="hotel-img"><img src="img/desert.png" alt="amara resort" width="136" height="90"></div>
+			<div class="hotel-discr"><h2>Desert quail inn</h2>
+			<span class="hotel-item-type">Мотель</span>
+			<span class="hotel-item-price">от 3000 Р</span>
+			<a href="" class="btn">Подробней</a><a href="" class="btn add-btn">забронировать</a>
+				</div></div>
+			<div class="rait-left">
+				<div class="star star-3"></div>
+				<div class="raiting">Рейтинг: 8.9</div>
+			</div>
+		</div>
+		<div class="hotel-item clearfix">
+			<div class="hotel-item-right">
+				<div class="hotel-img"><img src="img/villas.png" alt="amara resort" width="136" height="90"></div>
+			<div class="hotel-discr"><h2>Villas at poco Roco</h2>
+			<span class="hotel-item-type">Аппартаменты</span>
+			<span class="hotel-item-price">от 2000 Р</span>
+			<a href="" class="btn">Подробней</a><a href="" class="btn add-btn">забронировать</a>
+				</div></div>
+			<div class="rait-left">
+				<div class="star star-2"></div>
+				<div class="raiting">Рейтинг: 9.2</div>
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+	<div class="footer-wrap">
+		<div class="footer-hash ">#Visitsedona</div>
+		<div class="social">
+			<a href="" class="social-btn social-tw">Твитор</a>
+			<a href="" class="social-btn social-fb">Фейбук</a>
+			<a href="" class="social-btn social-yt">Ютаб</a>
+		</div>
+		<div class="producer">
+			
+			<a href="#"><img src="img/ilonikso_logo.png" alt="ilonikso_ltd" width="100" height="40"></a>
+		</div>
+		</div>
+	</footer>
+</body>
+</html>
